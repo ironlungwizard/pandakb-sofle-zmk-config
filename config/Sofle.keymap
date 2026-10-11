@@ -44,7 +44,7 @@
 &kp LSHFT &kp Z  &kp X    &kp C    &kp V     &kp B            &kp C_MUTE  &rgb_ug RGB_TOG &kp N       &kp M     &kp COMMA &kp DOT  &kp FSLH &mt RSHFT RET
                  &kp LGUI &kp LALT &kp LCTRL &mo SYMBOLS_BASE &kp SPACE   &kp BSPC        &mo EDITING &kp RCTRL &kp RALT  &kp RGUI
             >;
-            //sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LC(LA(PG_UP)) LC(LA(PG_DN))>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LC(LA(PG_UP)) LC(LA(PG_DN))>;
         };
 
         symbols_base_layer {
